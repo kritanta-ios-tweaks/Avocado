@@ -1,0 +1,15 @@
+---
+name: Avocado
+icmd: sbreload
+depends: mobilesubstrate, preferenceloader
+package: me.kritanta.avocado
+version: 1.0.0
+description: Avocado Widget Engine
+author: kritanta
+
+AvocadoEngine:
+  type: tweak
+  files:
+    - AVCWidget.m
+    - AVCWidgetServer.m
+    - Hooks/AvocadoHooks.mm
